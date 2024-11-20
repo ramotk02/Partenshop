@@ -7,34 +7,34 @@
 
 header {
     width: 100%;
-    background-color: #405d27; 
+    background-color: #405d27;
 }
 
 header ul {
     display: flex;
     justify-content: start;
-    align-items: center; 
-    height: 100px; 
-    list-style: none; 
+    align-items: center;
+    height: 100px;
+    list-style: none;
 }
 
 header li {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 header a {
-    padding-left:50px; ; 
-    text-decoration: none; 
-    color: azure; 
-    transition: color 0.3s; 
+    padding-left: 50px;
+    ;
+    text-decoration: none;
+    color: azure;
+    transition: color 0.3s;
     font-size: larger;
 }
 
 header a:hover {
-    color: #d3e4cd; 
+    color: #d3e4cd;
 }
-
 
 #Partenshop {
     color: blanchedalmond;
@@ -47,97 +47,122 @@ header a:hover {
     justify-content: center;
     margin-left: 40px;
 }
-#Partenshop:hover{
+
+#Partenshop:hover {
     background-color: #7b9664;
 }
 
-section{
-    height: 800px;
+section {
+    height: 650px;
     padding: 90px;
 }
+
 .WilcommenSec {
-background-color:#e8d8c9;
-
-}
-.WilcommenSec .img{
-    height: 500px;
-    width: auto;
+    background-color: #e8d8c9;
 }
 
-.WilcommenSec h1{
-    color:#82b74b;
+.WilcommenSec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.WilcommenSec #up {
+    position: relative;
+}
+
+.WilcommenSec h1 {
+    color: #82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-.WilcommenSec h3{
-    color:#405d27;
+
+.WilcommenSec h3 {
+    color: #405d27;
     padding-bottom: 20px;
 }
-.WilcommenSec p{
+
+.WilcommenSec p {
     font-size: 20px;
-    width: 900px;
+    width: auto;
     height: auto;
 }
 
-.über{
-
+.WilcommenSec #up{
+    background: #e8d8c9;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
-.über h1{
-    color:#82b74b;
+
+.über h1 {
+    color: #82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-.über h3{
-    color:#405d27;
+
+.über h3 {
+    color: #405d27;
     padding-top: 10px;
 }
-.über p{
+
+.über p {
     font-size: 20px;
     width: 900px;
     height: auto;
 }
-.Tiere{
-background-color: #e8d8c9;
+
+.Tiere {
+    background-color: #e8d8c9;
 }
-.Tiere h1{
-    color:#82b74b;
+
+.Tiere h1 {
+    color: #82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-.Tiere h3{
-    color:#405d27;
+
+.Tiere h3 {
+    color: #405d27;
     padding-top: 10px;
 }
-#Tiere p{
+
+#Tiere p {
     font-size: 20px;
     width: 900px;
     height: auto;
 }
-.info{
 
-}
-.info h1{
-    color:#82b74b;
+.info h1 {
+    color: #82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-.info h3{
-    color:#405d27;
+
+.info h3 {
+    color: #405d27;
     padding-top: 30px;
 }
-.info p{
+
+.info p {
     font-size: 20px;
     width: 900px;
     height: auto;
 }
-footer{
+
+footer {
     height: 200px;
-    background-color:#3e4444;
-    display: flex; 
-   justify-content: center;
+    background-color: #3e4444;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
 }
+
 footer a {
     margin-left: 10px;
     color: azure;
