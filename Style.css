@@ -55,51 +55,56 @@ section{
     height: 800px;
     padding: 90px;
 }
-#WilcommenSec {
+.WilcommenSec {
 background-color:#e8d8c9;
 
 }
-#WilcommenSec h1{
+.WilcommenSec .img{
+    height: 500px;
+    width: auto;
+}
+
+.WilcommenSec h1{
     color:#82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-#WilcommenSec h3{
+.WilcommenSec h3{
     color:#405d27;
     padding-bottom: 20px;
 }
-#WilcommenSec p{
+.WilcommenSec p{
     font-size: 20px;
     width: 900px;
     height: auto;
 }
 
-#über{
+.über{
 
 }
-#über h1{
+.über h1{
     color:#82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-#über h3{
+.über h3{
     color:#405d27;
     padding-top: 10px;
 }
-#über p{
+.über p{
     font-size: 20px;
     width: 900px;
     height: auto;
 }
-#Tiere{
+.Tiere{
 background-color: #e8d8c9;
 }
-#Tiere h1{
+.Tiere h1{
     color:#82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-#Tiere h3{
+.Tiere h3{
     color:#405d27;
     padding-top: 10px;
 }
@@ -108,19 +113,19 @@ background-color: #e8d8c9;
     width: 900px;
     height: auto;
 }
-#info{
+.info{
 
 }
-#info h1{
+.info h1{
     color:#82b74b;
     font-size: 90px;
     padding-bottom: 60px;
 }
-#info h3{
+.info h3{
     color:#405d27;
     padding-top: 30px;
 }
-#info p{
+.info p{
     font-size: 20px;
     width: 900px;
     height: auto;
