@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #405d27; 
+}
+
+header ul {
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    height: 100px; 
+    list-style: none; 
+}
+
+header li {
+    display: flex;
+    align-items: center; 
+}
+
+header a {
+    padding-left:50px; ; 
+    text-decoration: none; 
+    color: azure; 
+    transition: color 0.3s; 
+    font-size: larger;
+}
+
+header a:hover {
+    color: #d3e4cd; 
+}
+
+
+#Partenshop {
+    color: blanchedalmond;
+    background-color: #82b74b;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+#Partenshop:hover{
+    background-color: #7b9664;
+}
+
+section{
+    height: 800px;
+    padding: 90px;
+}
+#WilcommenSec {
+background-color:#e8d8c9;
+
+}
+#WilcommenSec h1{
+    color:#82b74b;
+    font-size: 90px;
+    padding-bottom: 60px;
+}
+#WilcommenSec h3{
+    color:#405d27;
+    padding-bottom: 20px;
+}
+#WilcommenSec p{
+    font-size: 20px;
+    width: 900px;
+    height: auto;
+}
+
+#über{
+
+}
+#über h1{
+    color:#82b74b;
+    font-size: 90px;
+    padding-bottom: 60px;
+}
+#über h3{
+    color:#405d27;
+    padding-top: 10px;
+}
+#über p{
+    font-size: 20px;
+    width: 900px;
+    height: auto;
+}
+#Tiere{
+background-color: #e8d8c9;
+}
+#Tiere h1{
+    color:#82b74b;
+    font-size: 90px;
+    padding-bottom: 60px;
+}
+#Tiere h3{
+    color:#405d27;
+    padding-top: 10px;
+}
+#Tiere p{
+    font-size: 20px;
+    width: 900px;
+    height: auto;
+}
+#info{
+
+}
+#info h1{
+    color:#82b74b;
+    font-size: 90px;
+    padding-bottom: 60px;
+}
+#info h3{
+    color:#405d27;
+    padding-top: 30px;
+}
+#info p{
+    font-size: 20px;
+    width: 900px;
+    height: auto;
+}
+footer{
+    height: 200px;
+    background-color:#3e4444;
+    color: azure;
+    display: flex; 
+   justify-content: center;
+    align-items: center;
+
+}
+footer a {
+    margin-left: 10px;
+}
