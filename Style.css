@@ -128,7 +128,6 @@ background-color: #e8d8c9;
 footer{
     height: 200px;
     background-color:#3e4444;
-    color: azure;
     display: flex; 
    justify-content: center;
     align-items: center;
@@ -136,4 +135,6 @@ footer{
 }
 footer a {
     margin-left: 10px;
+    color: azure;
+
 }
