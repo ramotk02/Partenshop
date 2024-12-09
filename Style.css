@@ -53,27 +53,43 @@ header a:hover {
 }
 
 section {
-    height: 650px;
+    height: 700px;
     padding: 95px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
-div{
+
+.divP {
     width: 1000px;
     height: 500px;
     margin: 20px;
     background-color: white;
     padding: 30px;
+    margin-left: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.200);
-    border-radius: 20px;
+    position: relative;
 }
+
 .WilcommenSec {
     background-color: #e8d8c9;
     height: 100vh;
     position: relative;
 }
 
+.WilcommenSec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.WilcommenSec .up {
+    background: #e8d8c9;
+    width: 45%;
+    margin: -50px;
+    padding: 20px;
+}
 
 .WilcommenSec h1 {
     color: #82b74b;
@@ -90,11 +106,11 @@ div{
     width: auto;
     height: auto;
 }
-p{
-    font-size: 20px;
 
+p {
+    font-size: 20px;
 }
-  
+
 
 .über h1 {
     color: #82b74b;
@@ -115,12 +131,13 @@ p{
 
 .Tiere {
     background-color: #e8d8c9;
+    height: 900px;
+    
 }
 
 .Tiere h1 {
     color: #82b74b;
     font-size: 90px;
-    padding-bottom: 60px;
 }
 
 .Tiere h3 {
@@ -130,8 +147,34 @@ p{
 
 #Tiere p {
     font-size: 20px;
-    width: 900px;
+    width: 500px;
     height: auto;
+}
+.divD {
+    height: 300px;
+    width: 80%;
+    background: white;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.200);
+
+}
+.Großdiv{
+    display: flex;
+    justify-content: space-between;
+     flex-direction: column;
+     padding-left: 250px;
+    
+}
+.divD .txt{
+    width: 50%;
+    padding: 20px;
+}
+.divD img {
+    width: 50%;
+    height: 100%; 
+    object-fit: cover; 
 }
 
 .info h1 {
