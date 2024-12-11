@@ -60,13 +60,15 @@ section {
 
 .divP {
     width: 1000px;
-    height: 500px;
+    height: auto;
     margin: 20px;
     background-color: white;
     padding: 30px;
     margin-left: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.200);
     position: relative;
+    border-radius: 20px;
+
 }
 
 .WilcommenSec {
@@ -157,25 +159,32 @@ p {
     display: flex;
     margin: 10px;
     justify-content: space-between;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.200);
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden; 
 }
-.Großdiv{
+
+.Großdiv {
     display: flex;
     justify-content: space-between;
-     flex-direction: column;
-     padding-left: 250px;
-    
+    flex-direction: column;
+    padding-left: 250px; 
 }
-.divD .txt{
+
+.divD .txt {
     width: 50%;
     padding: 20px;
 }
+
 .divD img {
     width: 50%;
-    height: 100%; 
+    height: 100%;
     object-fit: cover; 
 }
+.divD h3 {
+    padding-bottom: 20px;
+}
+
 
 .info h1 {
     color: #82b74b;
