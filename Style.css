@@ -204,12 +204,15 @@ p {
 }
 
 footer {
-    height: 200px;
+    height: 100px;
     background-color: #3e4444;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.feedback h1{
+    color: #7b9664;
 }
 
 footer a {
