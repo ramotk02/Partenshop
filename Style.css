@@ -55,7 +55,7 @@ header a:hover {
 section {
     height: 700px;
     padding: 95px;
-   
+
 }
 
 .divP {
@@ -134,7 +134,7 @@ p {
 .Tiere {
     background-color: #e8d8c9;
     height: 900px;
-    
+
 }
 
 .Tiere h1 {
@@ -152,6 +152,7 @@ p {
     width: 500px;
     height: auto;
 }
+
 .divD {
     height: 300px;
     width: 80%;
@@ -161,14 +162,14 @@ p {
     justify-content: space-between;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .Großdiv {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-left: 250px; 
+    padding-left: 250px;
 }
 
 .divD .txt {
@@ -179,8 +180,9 @@ p {
 .divD img {
     width: 50%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
+
 .divD h3 {
     padding-bottom: 20px;
 }
@@ -203,6 +205,31 @@ p {
     height: auto;
 }
 
+.feedback{
+    height: 200px;
+}
+
+.feedback h1 {
+    color: #82b74b;
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+.feedback button {
+    width: 500px;
+    height: 50px;
+    background-color: #82b74b;
+    color: blanchedalmond;
+    border-radius: 30px;
+    font-size: larger;
+    margin:20px 0 0 100px;
+}
+
+.feedback button:hover {
+    background-color: #7b9664;
+}
+
 footer {
     height: 100px;
     background-color: #3e4444;
@@ -211,12 +238,13 @@ footer {
     align-items: center;
 
 }
-.feedback h1{
-    color: #7b9664;
-}
 
 footer a {
     margin-left: 10px;
     color: azure;
 
+}
+
+.head2{
+    height: 40px;
 }
