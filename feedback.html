@@ -1,15 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
-    <title>Feedback</title>
+    <title>Formulaire de Sondage - Zoo Naturo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="head2">
-        <h1>Feedback</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#start">Start</a></li>
+                <li><a href="#UDZ">Über den Zoo</a></li>
+                <li><a href="#contact">Tierarten</a></li>
+                <li><a href="#BI">Besucher Info</a></li>
+                <div id="Partenshop">
+                    <h4>Partenshop</h4>
+                </div>
+            </ul>
+        </nav>
     </header>
-    
+
+    <section>
+        <div class="divP">
+            <h1>Umfrage zum Zoobesuch im Zoo Naturo</h1>
+            <p>Vielen Dank, dass Sie uns Ihr Feedback geben! Ihre Antworten helfen uns, den Zoo Naturo weiter zu verbessern und ein noch besseres Erlebnis für alle Besucher zu bieten.</p>
+            
+            <form action="submit_form.php" method="POST">
+                <label for="visit_date">Wann haben Sie den Zoo Naturo besucht?</label><br>
+                <select name="visit_date" id="visit_date">
+                    <option value="last_week">Letzte Woche</option>
+                    <option value="last_month">Letzten Monat</option>
+                    <option value="3_to_6_months">Vor 3-6 Monaten</option>
+                    <option value="more_than_6_months">Vor mehr als 6 Monaten</option>
+                </select><br><br>
+
+                <label for="satisfaction">Wie zufrieden waren Sie mit Ihrem Besuch im Zoo Naturo? (1 = sehr unzufrieden, 5 = sehr zufrieden)</label><br>
+                <input type="radio" name="satisfaction" value="1" id="satisfaction_1"><label for="satisfaction_1">1</label>
+                <input type="radio" name="satisfaction" value="2" id="satisfaction_2"><label for="satisfaction_2">2</label>
+                <input type="radio" name="satisfaction" value="3" id="satisfaction_3"><label for="satisfaction_3">3</label>
+                <input type="radio" name="satisfaction" value="4" id="satisfaction_4"><label for="satisfaction_4">4</label>
+                <input type="radio" name="satisfaction" value="5" id="satisfaction_5"><label for="satisfaction_5">5</label><br><br>
+
+                <label for="best_parts">Welche Bereiche des Zoos haben Ihnen am besten gefallen? (Mehrere Antworten möglich)</label><br>
+                <input type="checkbox" name="best_parts[]" value="animals" id="animals"><label for="animals">Tiere</label><br>
+                <input type="checkbox" name="best_parts[]" value="exhibitions" id="exhibitions"><label for="exhibitions">Ausstellungen und Themenbereiche</label><br>
+                <input type="checkbox" name="best_parts[]" value="gastronomy" id="gastronomy"><label for="gastronomy">Gastronomie</label><br>
+                <input type="checkbox" name="best_parts[]" value="playgrounds" id="playgrounds"><label for="playgrounds">Spielplätze und Freizeitangebote</label><br>
+                <input type="checkbox" name="best_parts[]" value="parking" id="parking"><label for="parking">Parkmöglichkeiten und Anfahrt</label><br>
+                <input type="checkbox" name="best_parts[]" value="staff" id="staff"><label for="staff">Freundlichkeit des Personals</label><br><br>
+
+                <label for="suggestions">Haben Sie Verbesserungsvorschläge oder Anregungen für uns?</label><br>
+                <textarea name="suggestions" id="suggestions" rows="4" cols="50"></textarea><br><br>
+
+                <label for="discovery">Wie sind Sie auf den Zoo Naturo aufmerksam geworden? (Mehrere Antworten möglich)</label><br>
+                <input type="checkbox" name="discovery[]" value="friends" id="friends"><label for="friends">Empfehlungen von Freunden/Familie</label><br>
+                <input type="checkbox" name="discovery[]" value="social_media" id="social_media"><label for="social_media">Soziale Medien</label><br>
+                <input type="checkbox" name="discovery[]" value="advertisement" id="advertisement"><label for="advertisement">Werbung (z.B. Flyer, Plakate)</label><br>
+                <input type="checkbox" name="discovery[]" value="website" id="website"><label for="website">Website des Zoos</label><br>
+                <input type="checkbox" name="discovery[]" value="reviews" id="reviews"><label for="reviews">Online-Bewertungen (z.B. Google, TripAdvisor)</label><br><br>
+
+                <label for="ticket_experience">Wie war Ihre Erfahrung mit dem Ticketkauf und der Eintrittskontrolle?</label><br>
+                <input type="radio" name="ticket_experience" value="very_bad" id="ticket_experience_very_bad"><label for="ticket_experience_very_bad">Sehr schlecht</label><br>
+                <input type="radio" name="ticket_experience" value="bad" id="ticket_experience_bad"><label for="ticket_experience_bad">Schlecht</label><br>
+                <input type="radio" name="ticket_experience" value="neutral" id="ticket_experience_neutral"><label for="ticket_experience_neutral">Neutral</label><br>
+                <input type="radio" name="ticket_experience" value="good" id="ticket_experience_good"><label for="ticket_experience_good">Gut</label><br>
+                <input type="radio" name="ticket_experience" value="very_good" id="ticket_experience_very_good"><label for="ticket_experience_very_good">Sehr gut</label><br><br>
+
+                <label for="newsletter">Ich möchte regelmäßig Informationen über Veranstaltungen und Neuigkeiten im Zoo Naturo erhalten.</label>
+                <input type="checkbox" name="newsletter" id="newsletter"><br><br>
+
+                <label for="privacy">Ich stimme der <a href="#">Datenschutzerklärung</a> zu.</label>
+                <input type="checkbox" name="privacy" id="privacy" required><br><br>
+
+                <button type="submit">Absenden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Zoo Naturo. Alle Rechte vorbehalten.</p>
+    </footer>
 </body>
 </html>
