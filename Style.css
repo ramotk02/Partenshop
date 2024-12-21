@@ -53,7 +53,6 @@ header a:hover {
 }
 
 section {
-    height: 700px;
     padding: 95px;
 
 }
@@ -64,10 +63,9 @@ section {
     margin: 20px;
     background-color: white;
     padding: 30px;
-    margin-left: 300px;
+    margin-left: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.200);
     position: relative;
-    border-radius: 20px;
 
 }
 
@@ -170,6 +168,7 @@ p {
     justify-content: space-between;
     flex-direction: column;
     padding-left: 250px;
+    padding-top: 30px;
 }
 
 .divD .txt {
@@ -188,46 +187,110 @@ p {
 }
 
 
-.info h1 {
+ h1 {
     color: #82b74b;
     font-size: 90px;
-    padding-bottom: 60px;
 }
 
-.info h3 {
+h3 {
     color: #405d27;
     padding-top: 30px;
+    font-size: 30px;
 }
 
-.info p {
+ p {
     font-size: 20px;
-    width: 900px;
+    width: auto;
     height: auto;
 }
-
-.feedback{
-    height: 200px;
+.BI{
+    height: 700px;
+}
+.Feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8d8c9; 
+    padding: 50px 0;
+    height: auto;
+}
+.titlef{
+    font-weight: bold;
+}
+.S {
+    width: 70%; 
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
-.feedback h1 {
+.S h1 {
     color: #82b74b;
     font-size: 40px;
-    margin-left: 20px;
-
+    margin-bottom: 20px;
 }
 
-.feedback button {
-    width: 500px;
-    height: 50px;
+.S p {
+    color: #405d27;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.S label {
+    color: #405d27;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.S select, .S input[type="radio"], .S input[type="checkbox"], .S textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #82b74b;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.S textarea {
+    height: 100px;
+}
+
+.S input[type="radio"], .S input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.S button {
     background-color: #82b74b;
-    color: blanchedalmond;
-    border-radius: 30px;
-    font-size: larger;
-    margin:20px 0 0 100px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.feedback button:hover {
-    background-color: #7b9664;
+.S button:hover {
+    background-color: #7b9664; 
+}
+
+footer {
+    height: 100px;
+    background-color: #3e4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: azure;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 footer {
@@ -238,6 +301,7 @@ footer {
     align-items: center;
 
 }
+
 
 footer a {
     margin-left: 10px;
