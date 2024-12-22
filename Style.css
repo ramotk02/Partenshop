@@ -287,6 +287,7 @@ h3 {
 #impressum{
     display: flex;
     justify-content: center;
+    background-color: #e8d8c9;
 }
 footer {
     height: 100px;
