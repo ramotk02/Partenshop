@@ -63,7 +63,6 @@ section {
     margin: 20px;
     background-color: white;
     padding: 30px;
-    margin-left: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.200);
     position: relative;
 
@@ -86,7 +85,7 @@ section {
 
 .WilcommenSec .up {
     background: #e8d8c9;
-    width: 45%;
+    width: 50%;
     margin: -50px;
     padding: 20px;
 }
@@ -111,7 +110,11 @@ p {
     font-size: 20px;
 }
 
-
+.über{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .über h1 {
     color: #82b74b;
     font-size: 90px;
@@ -205,6 +208,9 @@ h3 {
 }
 .BI{
     height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Feedback {
     display: flex;
@@ -278,7 +284,10 @@ h3 {
 .S button:hover {
     background-color: #7b9664; 
 }
-
+#impressum{
+    display: flex;
+    justify-content: center;
+}
 footer {
     height: 100px;
     background-color: #3e4444;
